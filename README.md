@@ -1,6 +1,3 @@
--- ⚠️ WARNING: This script effectively resets your public schema tables.
--- It will DELETE all data in custom tables (posts, profiles, etc.).
--- It does NOT delete your Auth users or Storage files, but it unlinks them.
 
 -- 1. Drop existing tables to start fresh (Reverse order of dependencies)
 DROP TABLE IF EXISTS public.events CASCADE;
